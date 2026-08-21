@@ -3,17 +3,17 @@ import { useState } from "react";
 const contactItems = [
   {
     label: "Email",
-    value: "kevin@example.com",
-    href: "mailto:kevin@example.com",
+    value: "khevin@example.com",
+    href: "mailto:khevin@example.com",
   },
   {
     label: "GitHub",
-    value: "github.com/kevin",
+    value: "github.com/khevin",
     href: "https://github.com/",
   },
   {
     label: "Facebook",
-    value: "facebook.com/kevin",
+    value: "facebook.com/khevin",
     href: "https://www.facebook.com/",
   },
 ];
@@ -97,7 +97,7 @@ function Contact() {
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              placeholder="Kevin"
+              placeholder="Khevin"
               className="w-full bg-transparent border-b border-slate-700
               px-0 py-3 text-white placeholder-slate-600
               outline-none focus:border-indigo-400
@@ -138,7 +138,7 @@ function Contact() {
         {/* Footer */}
         <div className="mt-16 pt-6 border-t border-slate-800">
           <p className="text-sm text-slate-600">
-            © 2026 Kevin · Built with React
+            © 2026 Khevin · Built with React
           </p>
         </div>
 
