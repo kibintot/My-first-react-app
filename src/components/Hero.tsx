@@ -20,7 +20,7 @@ function Hero() {
           >
             Hello, I'm
             <span className="block text-indigo-600">
-              Kevin.
+              Khevin.
             </span>
           </h1>
 
